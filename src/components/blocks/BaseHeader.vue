@@ -26,9 +26,10 @@ name: 'BaseHeader',
 @import '../../assets/style/buttons/buttons.scss';
 
 header {
-    background-color: #f3e7f1;
-    margin: auto;
-    height: 37.5rem;
+    background-image: url('../../assets/img/bakery_demo.png');
+    background-size: cover;
+    background-position: center;
+    height: 40.625rem;
 }
 .text_hero {
     margin: 9.375rem 1.875rem;
