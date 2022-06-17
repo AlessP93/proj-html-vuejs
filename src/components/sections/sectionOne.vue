@@ -42,14 +42,11 @@ export default {
 }
 .img_slot_one {
     background-image: url('../../assets/img/choco-chip-cookies.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 32%;
-    position: relative;
 }
 .img_slot_two {
     background-image: url('../../assets/img/strawberry-jam-cookies.jpg');
+}
+.img_slot_one, .img_slot_two {
     background-size: cover;
     background-position: center;
     height: 400px;

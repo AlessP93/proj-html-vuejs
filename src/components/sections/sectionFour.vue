@@ -20,12 +20,12 @@
                 <h2 class="py-3">New York</h2>
                 <div class="row">
                     <div class="col-4 py-3">
-                        <div>CALL US</div>
-                        <span>1.800.458.556</span>
+                          <span>CALL US</span>
+                        <p>1.800.458.556</p>
                     </div>
                     <div class="col-4 py-3">
-                        <div>OPEN ALL WEEKS</div>
-                        <span>9:00 AM - 6:00 PM</span>
+                      <span>OPEN ALL WEEKS</span>
+                        <p>9:00 AM - 6:00 PM</p>
                     </div>
                     <div class="col-4 py-3">
                         <button class="primary_btn">View Map</button>
@@ -36,12 +36,12 @@
                 <h2 class="py-3">London</h2>
                 <div class="row">
                     <div class="col-4 py-3">
-                        <div>CALL US</div>
-                        <span>1.800.458.556</span>
+                        <span>CALL US</span>
+                        <p>1.800.458.556</p>
                     </div>
                     <div class="col-4 py-3">
-                        <div>OPEN ALL WEEKS</div>
-                        <span>9:00 AM - 6:00 PM</span>
+                        <span>OPEN ALL WEEKS</span>
+                        <p>9:00 AM - 6:00 PM</p>
                     </div>
                     <div class="col-4 py-3">
                         <button class="primary_btn">View Map</button>
@@ -90,72 +90,54 @@ small {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-div, span {
+span, p {
     color: var(--text-color-grey);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .baking_ny {
     background-image: url('../../assets/img/new-york-bk.jpg');
-    background-size: cover;
-    height: 400px;
 }
-
 .ny_color {
     background-color: var(--lightazure-color);
 }
-.baking_ld {
-    background-image: url('../../assets/img/london-bk.jpg');
+.baking_ny, .baking_ld {
     background-size: cover;
     height: 400px;
+}
+.baking_ld {
+    background-image: url('../../assets/img/london-bk.jpg');
 }
 .ld_color {
     background-color: var(--lightyellow-color);
 }
-.bakery_one {
-    background-image: url(../../assets/img/social-1.jpg);
+.bakery_one, .bakery_three, .bakery_four, .bakery_five, .bakery_six, .bakery_seven {
     background-size: cover;
     height: 300px;
     width: 23%;
 }
-
+.bakery_one {
+    background-image: url(../../assets/img/social-1.jpg);
+}
 .bakery_two {
     background-color: var(--lightgrey-color);
     height: 300px;
     width: 49%;
 }
-
 .bakery_three {
     background-image: url('../../assets/img/social-2.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 23%;
 }
-
 .bakery_four {
     background-image: url('../../assets/img/social-3.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 23%;
 }
 .bakery_five {
     background-image: url('../../assets/img/social-4.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 23%;
 }
 .bakery_six {
     background-image: url('../../assets/img/social-5.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 23%;
 }
 .bakery_seven {
     background-image: url('../../assets/img/social-6.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 23%;
 }
-
 .primary_btn {
     transition: transform 2s;
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.4);

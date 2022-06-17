@@ -124,7 +124,6 @@ export default {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
-
 .sec_box_three {
     background-color: var(--lightgrey-color);
     height: 500px;
@@ -138,7 +137,6 @@ export default {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
-
 .sec_box_four {
     background-image: url('../../assets/img/bakery-process-3.jpg');
     background-size: cover;

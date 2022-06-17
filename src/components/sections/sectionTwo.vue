@@ -79,19 +79,15 @@ h2, div {
 }
 .img_slot_one {
     background-image: url('../../assets/img/corporate-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    width: 100%;
- 
 }
 .img_slot_two {
     background-image: url('../../assets/img/wedding-bg.jpg');
+}
+.img_slot_one, .img_slot_two {
     background-size: cover;
     background-position: center;
     height: 500px;
     width: 100%;
- 
 }
 .bakery_img img {
     width: 100%;
