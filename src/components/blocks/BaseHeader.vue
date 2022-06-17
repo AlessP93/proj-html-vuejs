@@ -6,7 +6,7 @@
                     <div class="text_hero">
                         <small>FRESH & TASTY BAKERY EVERY DAY</small>
                         <h1>The Perfect Fresh Bread</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium veniam consequatur quo Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium veniam consequatur quo Lorem ipsum dolor sit amet consectetur.</p>
                         <button class="primary_btn">Explore our products</button>
                     </div>
                 </div>
@@ -36,10 +36,19 @@ header {
 
     small, p {
         color: var(--text-color-grey);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     h1 {
         color: var(--text-color-violet);
     }
+}
+
+.primary_btn {
+    transition: transform 2s;
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.4);
+}
+.primary_btn:hover {
+    transform: scale(1.1);
 }
 </style>

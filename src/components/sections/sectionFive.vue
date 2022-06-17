@@ -29,10 +29,17 @@ section {
     
     small {
         color: var(--text-color-grey);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     h2 {
         color: var(--text-color-white);
     }
 }
-
+.primary_btn {
+    transition: transform 2s;
+    box-shadow: -10px 10px 20px rgba(236, 236, 236, 0.688);
+}
+.primary_btn:hover {
+    transform: scale(1.1);
+}
 </style>

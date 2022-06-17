@@ -56,9 +56,7 @@
             <div class="bakery_two col-5 text-center py-5">
                 <small class="py-5">MADE FOR SHARING</small>
                 <h2 class="py-5">Let's stay in touch</h2>
-                <button class="secondary_btn">
-                    <i class="fa-brands fa-instagram"></i>Follow Us
-                </button>
+                <button class="secondary_btn"><i class="fa-brands fa-instagram"></i>Follow Us</button>
             </div>
             <div class="bakery_three col-3"></div>
         </div>
@@ -89,10 +87,12 @@ h2 {
 
 small {
     color: var(--text-color-grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 div, span {
     color: var(--text-color-grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .baking_ny {
     background-image: url('../../assets/img/new-york-bk.jpg');
@@ -154,5 +154,20 @@ div, span {
     background-size: cover;
     height: 300px;
     width: 23%;
+}
+
+.primary_btn {
+    transition: transform 2s;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+.primary_btn:hover {
+    transform: scale(1.1);
+}
+.secondary_btn {
+    transition: transform 2s;
+    box-shadow: -10px 10px 20px rgba(100, 0, 133, 0.625);
+}
+.secondary_btn:hover {
+    transform: scale(1.1);
 }
 </style>

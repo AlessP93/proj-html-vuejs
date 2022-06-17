@@ -3,10 +3,10 @@
    <div class="container sec_box_one">
         <div class="opacity_box p-5 d-flex justify-content-between flex-column">
             <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                     <h3>Tell us what you have in mind</h3>
                 </div>
-                <div class="col-8 text-end">
+                <div class="col-9 text-end">
                 <span class="number_1">01</span>
                 </div>
             </div>
@@ -99,6 +99,9 @@ export default {
     small {
         color: var(--text-color-grey);
     }
+    small, p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 }
 .number_1 {
     font-size: 3.125rem;
@@ -113,6 +116,13 @@ export default {
     color: var(--text-color-white);
     padding: 0;
     width: 48%;
+
+    small {
+        color: var(--text-color-grey);
+    }
+    small, p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 }
 
 .sec_box_three {
@@ -125,6 +135,7 @@ export default {
     }
     small {
         color: var(--text-color-grey);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
 
@@ -140,6 +151,9 @@ export default {
     }
     small {
         color: var(--text-color-grey);
+    }
+    small, p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
 </style>
