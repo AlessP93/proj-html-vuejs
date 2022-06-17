@@ -15,7 +15,7 @@
                         <li><a href="#">JOURNALS</a></li> 
                         <li><a href="#">CONTANCT</a></li>
                         <li><a href="#">MY ACCOUNT</a></li>
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="shop fa-solid fa-cart-shopping"></i>
                     </ul>
                 </div>
             </div>
@@ -69,5 +69,8 @@ export default {
             border-bottom: .125rem solid var(--text-color-violet);
         }
     }
+}
+.shop {
+    color: var(--text-color-violet)
 }
 </style>
