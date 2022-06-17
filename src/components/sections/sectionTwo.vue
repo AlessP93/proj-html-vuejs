@@ -22,7 +22,7 @@
             <div class="row text-center">
                 <div class="bakery_img d-flex justify-content-between">
                     <div class="col-3 align-self-center p-52">
-                        <h2>Find a freschly backed product perfect for you</h2>
+                        <h2>Find a freshly backed product perfect for you</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque reprehenderit voluptatum odit vitae excepturi iure quis.</p>
                         <button class="secondary_btn">Shop All Product</button>
                     </div>
@@ -31,17 +31,17 @@
                             <img src="../../assets/img/choco-chip-cookies.jpg" alt="">
                             <span><i class="arrow_left fa-solid fa-angle-left"></i></span>
                         </div>
-                        <h5 class="py-2">Choco Chip Cookies</h5>
+                        <h6 class="py-2">Choco Chip Cookies</h6>
                         <small>$19.00 - $39.00</small>
                     </div>
                     <div class="col-2">
                         <img src="../../assets/img/strawberry-jam-cookies.jpg" alt="">
-                        <h5 class="py-2">Strawberry Jam Cookies</h5>
+                        <h6 class="py-2">Strawberry Jam Cookies</h6>
                         <small>$24.00 - $62.00</small>
                     </div>
                     <div class="col-2">
                         <img src="../../assets/img/strawberry-donut.jpg" alt="">
-                        <h5 class="py-2">Strawberry Donut</h5>
+                        <h6 class="py-2">Strawberry Donut</h6>
                         <small>$24.00 - $42.00</small>
                     </div>
                     <div class="col-2">
@@ -49,7 +49,7 @@
                             <img src="../../assets/img/perfect-macarons.jpg" alt="">
                             <span><i class="arrow_right fa-solid fa-angle-right"></i></span>
                         </div>
-                        <h5 class="py-2">Perfect Macarons</h5>
+                        <h6 class="py-2">Perfect Macarons</h6>
                         <small>$18.00 - $52.00</small>  
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default {
 @import '../../assets/style/buttons/buttons.scss';
 
 small {
-    color: var(--text-color-violet);
+    color: var(--text-color-grey);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 p {
